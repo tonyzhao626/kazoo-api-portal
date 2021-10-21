@@ -1,0 +1,229 @@
+.voicemails {
+	background: #F2F2F3;
+  display: inline-block;
+  width: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+.voicemails td {
+	border-bottom: 1px solid #ddd;
+}
+.voicemail-top-wrap {
+	display: block;
+	color: #808080ed;
+	margin-bottom: 24px;
+}
+.back-box{
+	cursor: pointer;
+	font-size: 12px;
+	color: gray;
+	margin-top: 32px;
+	margin-bottom: 17px;
+}
+.vmbox-title{
+	font-size: 23px;
+	color: #151517;
+	margin-bottom: 24px;
+}
+.voicemails-top {
+	background: #FFFFFF;
+	width: 11rem;
+	text-align: center;
+	line-height: 2rem;
+	border-radius: 0.2rem;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  padding: 15px 20px 15px 20px;
+  margin-right: 1px;
+  float: left;
+}
+.voicemails-top-1 h1, .voicemails-top-2 h1{
+	margin-bottom: 0;
+	font-size: 32px;
+	color: #151517;
+}
+.voicemails-top-1 h2, .voicemails-top-2 h2{
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.voicemails-top-2 {
+	border-top: 4px solid #ffffff;
+}
+.voicemails-top-1 {
+	border-top: 4px solid #33db24;
+	margin-right: 2px;
+}
+.checkbox-wrap {
+	padding: 7px 15px;
+	border: solid 1px #BCBCC2;
+	border-radius: 2px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  background: #F9F9F9;
+  margin-right: 0;
+  float: left;
+	display: block;
+}
+.checkbox-wrap > input[type="checkbox"] {
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+.direction-down{
+	font-size: 0.6rem;
+	margin-left: 40px !important;
+	padding-top: 6px;
+	margin: auto 0;
+	cursor: pointer;
+	color: grey;
+}
+.direction-down .dropdown-menu {
+	top: 12px !important;
+	left: -56px !important;
+}
+#voicemail-search {
+	display: block;
+	float: right;
+}
+
+#voicemail-search input[type="text"] {
+	width: 15rem;
+  background: url('../../assets/images/magnifying-glass.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+	font-size: 14px;
+}
+
+.voicemail tbody,
+.voicemail thead {
+	background: #F2F2F3;
+}
+
+.voicemail tbody {
+	line-height: 1rem;
+	font-size: 0.82rem;
+}
+
+.voicemail tbody > tr {
+	border-bottom: 1px solid #CFCFD6;
+	border-left: 1px solid #CFCFD6;
+	border-right: 1px solid #CFCFD6;
+}
+
+.voicemail tbody > tr > td:last-of-type {
+	text-align: right;
+}
+
+.voicemail tbody > tr > td:last-of-type img {
+	margin-right: 0.5rem;
+}
+
+.voicemail tbody > tr > td:first-of-type {
+	text-align: center;
+}
+
+.voicemail tbody > tr > td:last-of-type img {
+	float: right;
+}
+
+.voicemailbox-container {
+	width:100%;
+	display: inline-block;
+}
+
+.voicemailbox-wrapper {
+	padding: 24px 0;
+	margin:0 auto;
+	width: 100%;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.voicemailbox-wrapper:hover {
+	box-shadow: 0 0 30px 2px rgba(0,0,0,0.2);
+}
+.voicemailbox .voicemail-mailbox > div {
+	width: 50%;
+}
+
+.voicemailbox .voicemail-mailbox {
+	display: flex;
+	margin: 0 auto;
+	width: 45%;
+	color: #808080ed;
+}
+
+.voicemailbox-title {
+	text-align: left;
+	margin-top: 32px;
+	margin-bottom: 24px;
+	font-size: 14px;
+}
+
+.voicemailbox {
+	width: 100%;
+	text-align: center;
+}
+
+.newcount {
+	color: #33db24 !important;
+}
+.totalcount{
+	color: #151517;
+}
+
+.bottom-nav {
+	float: right;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-size: 0;
+}
+
+#page-num {
+	font-size: 0.7rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.bottom-nav button {
+	font-size: 0.8rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 0.1rem;
+	color: grey;
+	background: #F7F7F7;
+	border: 1px solid #CDCDD0;
+	margin-right: 0;
+	margin: 0;
+}
+.button-disable{
+	color: grey !important;
+}
+.button-enable{
+	color: #000 !important;
+}
+.bottom-nav button:first-of-type,
+.bottom-nav button:nth-of-type(2) {
+	color: lightgrey;
+}
+
+.bottom-nav button:nth-of-type(3) {
+	background: #D3D3D6;
+	color: black;
+}
+.voicemail-content{
+	background-color: #2DCB1A;
+	padding: 4px 11px;
+	border-radius: 50%;
+	color: #222224;
+	font-weight: bold;
+	text-align: center;
+}
+.voicemail-icon{
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: #ffffff;
+}

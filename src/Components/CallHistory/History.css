@@ -1,0 +1,234 @@
+.history {
+	background: #F2F2F3;
+	display: inline-block;
+	width: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.call-history thead {
+	background: #F2F2F3;
+}
+
+#call-history td {
+	font-size: 16px;
+	padding: 0.6rem 0 0.6rem 0 !important;
+}
+#call-history table {
+  border: 0px;
+}
+
+#call-history tbody {
+  background-color: white;
+}
+
+th,
+td {
+	padding: 1rem 0 1rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 0;
+}
+#call-history div,
+#faxes div {
+  vertical-align: middle;
+}
+.call-history tbody {
+	line-height: 1rem;
+	font-size: 1.1rem;
+  background-color: white;
+}
+.recent-calls{
+	height: 290px;
+	overflow: auto;
+}
+.call-history tbody > tr {
+	border-bottom: 1px solid #CFCFD6;
+	border-left: 1px solid #CFCFD6;
+	border-right: 1px solid #CFCFD6;
+}
+.first-child {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.second-child {
+	padding-left: 0px !important;
+}
+.call-icon{
+	float: left;
+}
+.last-child {
+	border-bottom: 0px !important;
+}
+#call-history thead > tr > th:first-of-type {
+	padding-left: 13px !important;
+}
+#call-history thead > tr > th:last-of-type {
+	padding-right: 10px !important;
+}
+#call-history tbody > tr > td:last-of-type {
+	border-bottom: 0px !important;
+	padding-right:10px !important;
+}
+
+#call-history tbody > tr > td:last-of-type img {
+	float: right;
+}
+
+.history-search {
+	position: relative;
+	margin-top: 32px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 26px;
+}
+
+.calendar1 {
+	width: 130px;
+	background: url('../../assets/images/calendar.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+	position: relative;
+}
+.state-date{
+	margin-right: 8px;
+}
+.end-date{
+	margin-right: 8px;
+}
+.react-date-picker__wrapper {
+	border: 1px solid #CDCDD0;
+	background-color: white;
+	padding: 4px;
+	margin-right: 10px;
+}
+
+.history-search label {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	color: grey;
+}
+
+.bottom-nav {
+	float: right;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.bottom-nav select {
+	width: 3rem;
+	height: 25px;
+}
+.bottom-nav label {
+	margin: 0 10px;
+}
+.call-search-text{
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+	width: 15rem !important;
+	background: url('../../assets/images/magnifying-glass.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+}
+.history-from{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.history-search-button {
+	position: absolute;
+	bottom: 0px;
+	border-radius: 0.2rem;
+	color: grey;
+	background: #F7F7F7;
+	border: 1px solid #CDCDD0;
+	padding: 6px 13px;
+}
+.call-history-table{
+  border: 0px;
+	width: 100%;
+}
+.history-table-title{
+	font-size: 12px;
+	color: grey;
+	margin: 0px 0px 15px 0px;
+}
+.call-history-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  margin-top: -1px;
+  float: left;
+  width:100%;
+  border-top: solid 1px #BCBCC2;
+  border-bottom: solid 1px #BCBCC2;
+}
+.call-history-row:hover, .call-history-row-active {
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.avatar{
+	width: 11%;
+	margin-right: 12px;
+	position: relative;
+}
+.img-avatar{
+	width: 2.5rem;
+	border-radius: 50%;
+
+}
+.call-view-all {
+  color: #1E81FF;
+	cursor: pointer;
+	font-size: 16px;
+}
+.call-view-all :hover {
+	text-decoration: underline;
+	color: #1E81FF;
+}
+.missed-content{
+	background-color: #FF3D24;
+	padding: 4px 11px;
+	border-radius: 50%;
+	color: #222224;
+	font-weight: bold;
+	text-align: center;
+}
+.missed-call-icon{
+	width: 16px;
+	height: 16px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: #ffffff;
+}
+.calls-icon{
+	width: 16px;
+	height: 16px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: gray;
+}
+.missed-icon{
+	width: 16px;
+	height: 16px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: #FF3D24;
+}

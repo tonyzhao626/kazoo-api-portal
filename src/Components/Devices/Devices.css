@@ -1,0 +1,104 @@
+#devices td {
+	width: 50%;
+	text-align: left;
+	padding: 0.4rem 0 0.4rem 0 !important;
+}
+#devices div {
+	vertical-align: middle;
+}
+.divice-title{
+	padding:10px 10px 10px 0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+#devices thead > tr > th:first-of-type {
+	font-weight: 400;
+	font-size:1.2rem;
+  color: grey;
+}
+#devices thead > tr > th:nth-of-type(2) {
+	padding-top: 1.3rem;
+	font-size: 1.1rem
+}
+#devices td img {
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+#devices tbody > tr > td:first-of-type {
+  font-size: 1.1rem;
+}
+#device-id {
+  font-size: 0.7rem;
+  color: grey;
+}
+#devices tbody > tr > td:last-of-type div:nth-of-type(1) {
+	font-size: 1rem;
+}
+.color-red{
+	color: #FF3D24 !important;
+}
+
+.num-title{
+  font-size: 14px;
+	font-weight: 500;
+}
+.device-scroll{
+	margin-top: 15px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.devices {
+	margin: 0 10px;
+	padding-top: 1.7rem;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 1.7rem;
+	border-radius: 0.2rem;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  padding-bottom: 0.5rem;
+	position: relative;
+	width: 260px;
+	display: inline-block;
+	height: 95%;
+}
+
+.device-container{
+	padding: 15px 0px;
+  overflow-x: hidden;
+	overflow-y: hidden;
+	display: inline-block;
+	white-space: nowrap;
+	height: 220px;
+	width: 100%;
+}
+.prev, .next {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+	color: #64646c !important;
+  transition: 0.6s ease;
+}
+.next {
+  margin-left: 5px;
+}
+.prev {
+  margin-right: 5px;
+}
+.prev:hover, .next:hover {
+  color: #151517 !important;
+	height: 100%;
+}
+.corner-icon{
+	width: 17px;
+	height: 17px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle
+}
+.color-green{
+	color: #2DCB1A !important;
+}

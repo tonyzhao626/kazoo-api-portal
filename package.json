@@ -1,0 +1,100 @@
+{
+  "name": "UserPortal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "auto-launch": "^5.0.5",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "concurrently": "^4.1.0",
+    "electron-reload": "^1.4.0",
+    "i18next": "^13.0.1",
+    "jquery": "^3.3.1",
+    "libphonenumber-js": "^1.6.9",
+    "lodash": "^4.17.11",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "monster": "^0.1.1",
+    "npm": "^6.5.0",
+    "path": "^0.12.7",
+    "popper.js": "^1.14.6",
+    "react": "^16.7.0",
+    "react-datepicker": "^2.0.0",
+    "react-dom": "^16.7.0",
+    "react-quill": "^1.3.3",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-toastify": "^4.5.2",
+    "react-websocket": "^2.0.1",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2",
+    "wait-on": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "yarn build && electron .",
+    "pack": "electron-builder --dir",
+    "electron-pack": "build --em.main=build/main.js",
+    "package-mac": "yarn build && electron-builder build --mac",
+    "package-win": "yarn build && electron-builder build --win --x64",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron ./src/electron-starter.js\"",
+    "preelectron-pack": "yarn build"
+  },
+  "homepage": "./",
+  "main": "./src/main.js",
+  "build": {
+    "productName": "UserPortal",
+    "appId": "userportal",
+    "files": [
+      "build/**/*",
+      "public/**/*",
+      "src/main.js",
+      "package.json"
+    ],
+    "extraMetadata": {
+      "main": "src/main.js"
+    },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-builder": "^20.38.5",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "foreman": "^3.0.1",
+    "redux-logger": "^3.0.6"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "API_URL" : "http://sandbox.2600hz.com:8000/v2",
+    "ACCOUNT_ID" : "f592f76019f1523f273e1e33c13beeb4",
+    "ACCOUNT_USERNAME" : "outsourcing@2600hz.com",
+    "ACCOUNT_PASSWORD" : "outsourcepassword",
+    "ACCOUNT_NAME" : "2600Hz-Office",
+    "OWNER_ID" : "a0db4a87cff55ea2d7f10abb6b5f341a",
+    "BUSINESS_NAME": "USER PORTAL",
+    "TrayIcon": "favicon"
+}

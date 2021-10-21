@@ -1,0 +1,81 @@
+.Sidebar {
+	position: relative;
+	float: left;
+	width: 100%;
+	background: #222225;
+	height: 100%;
+}
+.sidebar-blank{
+	background: #F2F2F3;
+}
+.kazoo-logo {
+	padding-top: 1rem;
+	padding-bottom: 0.8rem;
+	font-size: 1.8rem;
+	color:#008df1;
+	border-bottom: solid 1px #151517;
+	text-align: center;
+}
+
+.Sidebar a {
+	text-decoration: none;
+}
+.Sidebar-Link {
+	padding-left: 1.25rem;
+	padding-bottom: 1.25rem;
+	padding-top: 1.25rem;
+	color: #F4F4F5;
+	font-weight: 300;
+	text-align: left;
+	background: #222225;
+	display: flex;
+	align-items: center;
+}
+.Sidebar-active > .Sidebar-Link {
+	background: #101012 !important;
+	color: #1E81FF;
+	font-weight: 300;
+	border-left: 3px solid #1E81FF;
+	border-radius: 0.2rem;
+	text-decoration: none;
+}
+.Sidebar-Link .hover {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #F4F4F5;
+	font-size: 16px;
+	font-weight: 350;
+	text-align: left;
+	padding-left: 1rem;
+	background: #101012;
+	cursor: pointer;
+}
+.Sidebar-Link img,
+.Sidebar-Link-hover img {
+	margin-right: 1.3rem;
+}
+.notification {
+	background-color: #FF3D24;
+	border-radius: 50%;
+	font-size: 12px;
+	color: #222224;
+	font-weight: bold;
+	right: 0;
+	position: absolute;
+	margin-right: 25px;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  line-height: inherit;
+	vertical-align: middle;
+	margin-right: 15px;
+	margin-left: 5px;
+}

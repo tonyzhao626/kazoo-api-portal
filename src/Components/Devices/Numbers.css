@@ -1,0 +1,97 @@
+#numbers thead > tr > th:first-of-type {
+  font-weight: 400;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.font-grey {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: grey;
+}
+#numbers h1 {
+	font-size: 32px;
+	margin-bottom: 2.2rem;
+	font-weight: 300;
+	font-weight: 420;
+  color: black;
+}
+.number-title{
+  padding: 10px 10px 10px 8px;
+}
+.float-right {
+  text-align: center;
+  float: right;
+  display: inline-block;
+  font-size: 120px;
+  margin-right: 0rem;
+  font-weight: 400;
+  color: grey;
+}
+.number-box{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#devices thead > tr > th:first-of-type {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: grey;
+}
+.number-graph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.number-title-box{
+  padding: 15px 0px 0px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usage-today{
+  font-size: 14px;
+  font-weight: normal;
+}
+.border-div{
+  border: 0.6px solid;
+  color: #dddddd;
+}
+.selected-num{
+  background: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  padding: 16px;
+  border-right: 2px solid #2297FF;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.unselected-num{
+  background: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-radius: 0.2rem;
+  padding: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.selected-num img{
+  width: 20px;
+}
+.number-title{
+  font-size: 16px;
+  font-weight: 400;
+}
+.donut1 {
+	text-align: center;
+	display: inline-block;
+	font-size: 90px !important;
+}

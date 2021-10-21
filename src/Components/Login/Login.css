@@ -1,0 +1,107 @@
+.login-main{
+  background: #F2F2F3;
+  padding-top: 130px;
+  height: 100vh;
+}
+.invaild{
+  color: #f8a506;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.invalid-icon{
+  width: 16px;
+	height: 16px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+}
+.login{
+  background: #ffffff;
+  margin: 0 auto;
+  width: 500px;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  padding: 24px;
+}
+.login-title{
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+.item-title{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.itmes{
+  margin-bottom: 20px;
+}
+.login-property{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-login{
+  width: 100%;
+}
+.trouble-sign{
+  color: #2B97FF;
+  cursor: pointer;
+}
+.trouble-icon{
+  width: 16px;
+	height: 16px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: gray;
+}
+.back-login{
+  font-size: 12px;
+  color: #64646c;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+.trouble-body{
+  margin-top: 32px;
+  font-size: 14px;
+  color: #151517;
+}
+.trouble-url-title{
+  margin-top: 40px;
+  font-size: 14px;
+  color: #151517;
+  display: flex;
+  align-items: center;
+}
+.trouble-url{
+  font-size: 14px;
+  color: #151517;
+  margin-top: 12px;
+}
+.trouble-change{
+  color: #2B97FF;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.trouble-items{
+  display: flex;
+  justify-content: flex-start;
+}
+.trouble-items-input{
+  width: 70% !important;
+}
+.trouble-btn-green{
+  background: #2ed022;
+  border: 1px solid #209218;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.trouble-btn-grey{
+  border: 1px solid #bcbcc2;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}

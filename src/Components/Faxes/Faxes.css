@@ -1,0 +1,370 @@
+.faxes {
+	background: #f4f4f5;
+	display: inline-block;
+	width: 100%;
+	overflow: scroll;
+	position: relative;
+}
+
+.fax-container {
+	margin: 32px 24px 0px 24px;
+	text-align: left;
+}
+#faxes table {
+	padding-top: 0.8rem;
+}
+
+.fax-search {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fax-search-button {
+	margin-top: 10px;
+	border-radius: 0.2rem;
+	color: #64646c;
+	background: #f7f7f7;
+	border: 1px solid #cdcdd0;
+	padding: 6px 13px;
+	display: flex;
+	align-items: center;
+}
+.fax-search-button:hover {
+	color: #2297ff;
+}
+
+.calendar1 {
+	width: 130px;
+	background: url('../../assets/images/calendar.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+	position: relative;
+	bottom: 0;
+}
+.fax-search label {
+	display: block;
+	text-align: left;
+	margin-left: 0.15rem;
+	font-size: 0.8rem;
+	color: grey;
+}
+.fax-search-text {
+	margin-top: 10px;
+	width: 15rem !important;
+	background: url('../../assets/images/magnifying-glass.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+}
+.fax-checkbox-wrap {
+	padding: 7px 15px;
+	border: solid 1px #bcbcc2;
+	border-radius: 2px;
+	font-weight: 300;
+	background: #f9f9f9;
+	float: left;
+	display: block;
+	margin-top: 10px;
+}
+.fax-checkbox-trash {
+	padding: 7px 10px;
+	border: solid 1px #bcbcc2;
+	border-radius: 2px;
+	font-weight: 300;
+	background: #f9f9f9;
+	margin-left: 16px;
+	float: left;
+	display: block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.fax-checkbox-wrap > input[type="checkbox"] {
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.completedstatus {
+	background-color: #33db24 !important;
+	border-color: #33db24 !important;
+	color: #071f05;
+	border-radius: 15px;
+	padding: 4px 12px 4px 12px;
+	font-size: 12px;
+}
+.faxtable {
+	border: 0px;
+	margin-top: 24px !important;
+	width: 100%;
+}
+.table-th {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: grey;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+}
+.fax-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	margin-top: -1px;
+	float: left;
+	width: 100%;
+	border-top: solid 1px #bcbcc2;
+	border-bottom: solid 1px #bcbcc2;
+}
+.fax-row:hover,
+.fax-row-active {
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.table-td {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.button-disable {
+	color: grey !important;
+}
+.button-enable {
+	color: #000 !important;
+}
+.calltable-thead th {
+	padding: 0px !important;
+	color: grey;
+	font-weight: bold;
+}
+
+.faxes-view-all {
+	color: #1e81ff;
+	font-size: 1rem;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.rencent-faxes {
+	height: 270px;
+	overflow: auto;
+}
+
+.total-fax-content {
+	background-color: #f4f4f5;
+	padding: 4px 11px;
+	border-radius: 50%;
+	color: #222224;
+	font-weight: bold;
+	text-align: center;
+}
+
+.apply-icon {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.fax-icon {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	color: gray;
+}
+
+.fax-title {
+	padding: 10px 10px 15px 5px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.faxes-box {
+	background: #ffffff;
+	width: 100%;
+	text-align: center;
+	line-height: 2rem;
+	border-radius: 0.2rem;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+	padding: 10px 20px 20px 20px;
+	float: left;
+	height: 350px;
+}
+
+.send-fax {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.send-fax-button {
+	border-radius: 0.2rem;
+	color: #151517;
+	background: #2297ff;
+	border: 1px solid #006bca;
+	padding: 6px 13px;
+	display: flex;
+	align-items: center;
+}
+.process-state {
+	color: #64646c;
+	height: 10px;
+	width: 10px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.send-state {
+	color: #dbdbde;
+	height: 10px;
+	width: 10px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.failed-state {
+	color: #ff3d24;
+	height: 10px;
+	width: 10px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.received-state {
+	color: #dbdbde;
+	height: 10px;
+	width: 10px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+#sendfax-modal1 .modal-content {
+	width: 684px;
+}
+#sendfax-modal2 .modal-header {
+	background-color: #151517;
+	height: 55px;
+	color: #ffffff;
+}
+#sendfax-modal2 .modal-header .button .span {
+	color: #ffffff;
+}
+.sendfax-main {
+	margin: 0 auto;
+}
+.upload-label {
+	font-size: 12px;
+	color: #64646c;
+}
+.ql-snow .ql-picker {
+	height: 28px !important;
+}
+.ql-editor {
+	height: 240px !important;
+}
+.cancel-btn {
+	cursor: pointer;
+	border-radius: 0.2rem;
+	color: #64646c;
+	border: 1px solid #ffffff;
+	padding: 6px 13px;
+}
+.choose-btn {
+	border-radius: 0.1rem;
+	color: #64646c;
+	background: #f7f7f7;
+	border: 1px solid #cdcdd0;
+	padding: 6px 13px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.choose-btn:hover {
+	color: #151517;
+}
+#filter-dropdown .dropdown-menu {
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
+	border: none;
+	top: 10px !important;
+}
+.filter-fax {
+	width: 458px;
+	padding: 5px 16px 16px 16px;
+}
+.button-group{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.fax-btn-all{
+	margin-right: -2px
+}
+.fax-type-btn-active{
+	background: #dbdbde !important;
+	border: 1px solid #bcbcc2 !important;
+	color: #151517;
+}
+.fax-icon-filter{
+	height: 14px;
+	width: 14px;
+	fill: currentColor;
+	line-height: inherit;
+	vertical-align: middle;
+}
+.line-div{
+	margin: 10px 0px;
+	border: 1px solid #dbdbde;
+}
+.round-pending-state{
+	background: #64646c;
+	color: #ffffff;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 3px 8px;
+}
+.round-faild-state{
+	background: #ff3d24;
+	color: #151517;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 3px 8px;
+}
+.round-send-state{
+	background: #dbdbde;
+	color: #151517;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 3px 8px;
+}
+.filter-calendar{
+	width: 140px !important;
+	background: url('../../assets/images/calendar.png') no-repeat scroll;
+	background-position: 95% 50%;
+	background-color: white;
+	position: relative;
+	bottom: 0;
+}
+.button-group1{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+input[type="file"] {
+  display: none;
+}
+.border-red{
+	border: 1px solid #ff3d24;
+}

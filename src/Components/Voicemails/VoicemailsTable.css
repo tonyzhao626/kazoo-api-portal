@@ -1,0 +1,73 @@
+
+.row1 {
+	color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-left: 16px;
+  width: 100%;
+}
+.voicemailtable{
+  border: 0px;
+  margin: 0 15px 0 15px !important;
+  width: 100%;
+}
+.voicemail-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  margin-top: -1px;
+  float: left;
+  width:100%;
+  border-top: solid 1px #BCBCC2;
+  border-bottom: solid 1px #BCBCC2;
+}
+.voicemail-row:hover, .voicemail-row-active {
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.checkbox{
+  width: 15px !important;
+  height: 15px !important;
+  margin-left:-10px;
+}
+.status{
+  margin-left: -15px;
+
+}
+.newstatus{
+  background-color: #33db24 !important;
+  border-color: #33db24 !important;
+  color: #071F05;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+  font-size:  12px;
+}
+.listenedstatus{
+  background-color: #d0d0d9 !important;
+  border-color: #d0d0d9 !important;
+  color: #071F05;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+  font-size:  12px;
+}
+.deletedstatus{
+  background-color: #ff3d24 !important;
+  border-color: #ff3d24 !important;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+  font-size:  12px;
+}
+.audioplay{
+  cursor: pointer;
+}
+.audiodown{
+  cursor: pointer;
+}
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.5;
+}
